@@ -35,3 +35,7 @@ In this project we build data pipeline using Amazon S3 bucket as a data source, 
 
 ## Project Execution Flow
 * Stores Raw Data in AWS S3 -> Trigger Transform Fuction (Run spotify-ETL-PySpark code to transform the raw staging data) -> Stores Transformed Data in AWS S3 (Destination Directory)-> AWS Glue Crawler runs on the Transformed Data and Generated AWS Glue Data Catalog -> Query the Data using Athena -> Visualization using QuickSight
+
+
+## Appendix
+![Query reuslt using Athena](https://github.com/binodkshetry/Spotify-end-to-end-data-engineering-project/blob/main/ETL.PNG)
