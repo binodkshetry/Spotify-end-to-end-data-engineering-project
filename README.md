@@ -10,3 +10,4 @@ I have extracted raw data file from kaggle dataset and performed the cleaning jo
 
 ## ETL
 In this project we build data pipeline using Amazon S3 bucket as a data source, AWS Glue detects the schema of the data at the specified location (created directories for both staging and transformed data)from one of the files, or by using the file you specify as a sample file. Schema detection occurs when we use the Infer schema button. If you change the Amazon S3 location or the sample file, then you must choose Infer schema again to perform the schema detection using the new information. Here GLue ETL performs required transformation before storing the transformed data into S3 bucket.
+(https://github.com/binodkshetry/Spotify-end-to-end-data-engineering-project/blob/main/ETL.PNG)
