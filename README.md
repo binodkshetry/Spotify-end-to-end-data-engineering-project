@@ -38,4 +38,4 @@ In this project we build data pipeline using Amazon S3 bucket as a data source, 
 
 
 ## Appendix
-![Query reuslt using Athena]([https://github.com/binodkshetry/Spotify-end-to-end-data-engineering-project/blob/main/query-result.PNG])
+![Query reuslt using Athena](https://github.com/binodkshetry/Spotify-end-to-end-data-engineering-project/blob/main/query-result.PNG)
