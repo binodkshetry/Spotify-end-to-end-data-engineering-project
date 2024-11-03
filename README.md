@@ -26,3 +26,7 @@ In this project we build data pipeline using Amazon S3 bucket as a data source, 
 * Amazon Athena: Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. You can use Athena to analyze data in your Glue Data Catalog or in other S3 buckets.
 
 * Amazon Quicksight: Amazon QuickSight is a fast business analytics service to build visualizations, perform ad hoc analysis, and quickly get business insights from your data.
+  
+
+## Project Execution Flow
+* Stores Raw Data in AWS S3 -> Trigger Transform Fuction (Run spotify-ETL-PySpark code to transform the raw staging data) -> Stores Transformed Data in AWS S3 (Destination Directory)-> AWS Glue Crawler runs on the Transformed Data and Generated AWS Glue Data Catalog -> Query the Data using Athena -> Visualization using QuickSight
